@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <h1><img src="imagens/X_LOGO_.png"></h1>
+            <h2>Sempre pensando em você</h2>
+            <br><br>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="SobreNos.html">Sobre nós</a> </li>
+                    <li><a href="Destinos.html">Destinos</a> </li>
+                    <li><a href="FormularioDecolar.html">Reservas</a> </li>
+                    <li><a href="Contato.html">Contato</a> </li>
+                    <li><a href="Depoimentos.html">Depoimentos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div class="formulario">
+            <h1 id="titulo"><b>AGENDE SUA VIAGEM</b></h1>
+            <br>
+            <!-- Início do formulário -->
+            <form action="https://formsubmit.co/testescursosoulcode@gmail.com"
+                    method="POST" class="form">
+                <fieldset class="grupo">
+                    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                    <div class="campo">
+                        <label for="nome"><strong>Nome:</strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <br>
+                    <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                    <div class="campo">
+                        <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+                <br>
+                <!-- Campo de email com-->
+                <div class="campo">
+                    <label for="email"><strong>E-mail:</strong></label>
+                    <input type="email" name="email" placeholder="example@email.com" id="email" required>
+                </div>
+                <br>
+                <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+                <div class="campo">
+                    <label><strong>Qual seria o seu destino ?</strong></label><br>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value="Taubaté - São Paulo ">Taubaté - São Paulo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value="Ilha da queimada grande - em São Paulo ">Ilha da
+                        queimada
+                        grande - São Paulo
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Ilha Ramree - Birmânia">Ilha Ramree - Birmânia
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Ilha da Sentinela do Norte - Índia">Ilha da Sentinela
+                        do Norte
+                        na Índia
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Caverna dos Cristais - México">Caverna dos Cristais -
+                        México
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value="  Porta do Inferno - Turcomenistão"> Porta do Inferno -
+                        Turcomenistão
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Vale da Morte - Califórnia"> Vale da Morte -
+                        Califórnia
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Lago Fervente - Ilha de Dominica"> Lago Fervente -
+                        Ilha de
+                        Dominica
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value="Depressão de Afar - África">Depressão de Afar - África
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="devweb" value=" Lago Nyos - Camarões"> Lago Nyos - Camarões
+                    </label>
+                </div>
+                <br>
+                <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+                <div class="campo">
+                    <label for="Mes"><strong>Mês de Viagem</strong></label>
+                    <br><br>
+                    <input id="date" type="date">
+                </div>
+                <br>
+                <fieldset class="grupo">
+                    <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                    <div id="check">
+                        <label><strong>Selecione a Forma de Pagamento:</strong></label><br>
+                        <br>
+                        <select id="Mes" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option>DÉBITO</option>
+                            <option>BOLETO</option>
+                            <option>À VISTA</option>
+                            <option>12X/SEM JUROS</option>
+                            <option>24X/SEM JUROS </option><br>
+                        </select>
+                        <br>
+                        <br> <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                        <label for="tecnologia1"> SANTANDER</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                        <label for="tecnologia2"> C6</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                        <label for="tecnologia3"> NUBANK</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                        <label for="tecnologia4"> BRADESCO</label><br>
+
+                        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                        <label for="tecnologia5"> CAIXA ECONÔMICA</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                        <label for="tecnologia6"> BANCO DO BRASIL</label>
+                        <br>
+                        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                        <label for="tecnologia7"> ITAÚ</label>
+                    </div>
+                </fieldset>
+                <!-- Caixa de texto -->
+                <div class="campo">
+                    <br>
+                    <br><label for="experiencia"><strong>Conte sua experiência no preenchimento do formulário:<br>
+                        </strong></label>
+                    <br>
+                    <textarea class="caixaTexto" rows="5" style="width: 55%" id="experiencia" name="experiencia"></textarea><br>
+                    <input class="formbutton" type="submit" onclick="logar(); return true">
+                
+                <script>
+                    function logar() {
+                        var nome = document.getElementById('nome').value;
+                        var sobrenome = document.getElementById('sobrenome').value;
+                        if (nome) {
+                            alert('👍 PARABÉNS CADASTRO CONCLUÍDO');
+                        } else {
+                            alert('⚠️PREENCHA SEUS DADOS');
+                        }
+                    }
+                </script>   
+                </div>  
+                <br>
+            </form>
+    </main>
+    <footer>
+        <section class="div3">
+            <ul>
+                <li><a href="https://soulcodeacademy.org/"><img src="imagens/X_LOGO_soulcode.png" alt="" width="65px"></a> </li>
+                <li><a href="https://www.instagram.com/"><img src="imagens/X_LOGO_instagram.png" alt="" width="25px"></a> </li>
+                <li><a href="https://www.linkedin.com/"><img src="imagens/X_LOGO_linkedin.png" alt="" width="25px"></a> </li>
+                <li><a href="https://api.whatsapp.com/send?phone=22992310058"><img src="imagens/X_LOGO_whats.png" alt="" width="25px"></a> </li>
+                <p>Copyright 2022 - All Rights Reserved</p>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>

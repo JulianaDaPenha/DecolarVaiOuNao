@@ -1,0 +1,417 @@
+body {
+    background-image: linear-gradient(to right, #967cf1, #a28af8, #9c8dd3, #85d6ce, #e0cbcb);
+}
+
+.formulario {
+    margin-left: 39%;
+    font-size: 1.3em;
+}
+
+.cadastro {
+    margin-left: 39%;
+    font-size: 1.3em;
+}
+
+.cadastro p {
+    text-align: left;
+}
+
+.cadastro h1 {
+    font-size: 15px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.div1 {
+    width: 100%;
+    height: 20%;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.carrossel {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    outline: 3px solid black;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.carrossel ul {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 500px;
+}
+
+.carrossel li {
+    position: relative;
+    animation: slide 33s infinite ease-out;
+}
+
+@keyframes slide {
+    0% { left: 0px }
+    9% { left: -800px }
+    18% { left: -1600px }
+    27% { left: -2400px }
+    36% { left: -3200px }
+    45% { left: -4000px }
+    54% { left: -4800px }
+    63% { left: -5600px }
+    72% { left: -6400px }
+    81% { left: -7200px }
+}
+
+.div3 {
+    width: 100%;
+    height: 10%;
+    float: left;
+    text-align: center;
+    padding: 5px 0;
+    right: 0;
+}
+
+.div3 li {
+    display: inline;
+    margin: 0 0 0 9px;
+}
+
+.div3 p{
+    margin-top: 7px;
+}
+
+.box {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 1%;
+    width: 60%;
+    height: 500px;
+    max-width: 800px;
+    border: 5px solid rgb(98, 64, 209);
+    border-radius: 80px;
+    background: rgba(224, 210, 228, 0.514);
+}
+
+.box .fonte {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.div2 {
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.div2 img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    padding: 2px;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.div2 p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.div4 {
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.div4 img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    padding: 2px;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.div4 p {
+    width: 90%;
+    margin:0 5%;
+}
+
+.div5 {
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.div5 img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    padding: 2px;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.div5 p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.div6 {
+    width: 33.33%;
+    height: 400px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.div6 img {
+    width: 90%;
+    height: 50%;
+    margin: 5%;
+    padding: 2px;
+    border-radius: 1%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.div6 p {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.star{
+    margin-top: 5px;
+    width: 20px ;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+
+.card .user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    font-family:sans-serif
+}
+
+.card{
+    background-color:bisque ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.301);
+    border-radius: 50px;
+    margin-bottom: 30px;
+    position: sticky;
+}
+
+p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.imagem{
+    width: auto;
+    height: 90px;
+} 
+
+p {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.titulo{
+   font-size: 25px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.imagem {
+    width: auto;
+    height: 90px;
+}
+
+.formbutton {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+h2{
+    font-size: 35px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+h3{
+    margin-top: 40px;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(95, 12, 140);   
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        position: static;
+        margin-bottom: 50px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    nav li {
+        margin: 0 0 0 5px;
+    }
+
+    .div1 img {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .carrossel {
+        width: 90%;
+        height: 300px;
+    }
+
+    .div3 p {
+        font-size: 10px;
+    }
+
+    .box {
+        margin-bottom: 80px;
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .div3 li {
+        margin: 1px;
+    }
+
+    .div3 p {
+        margin-top: 2px;
+    }
+
+    .div2,.div4,.div5,.div6 {
+        width: 90%;
+        height: 50%;
+        margin-bottom: 15px;
+    }
+
+    .formulario,
+    .cadastro {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+
+    .caixaTexto {
+        width: 500px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 20px;
+        margin: 20px;
+    }
+ 
+    h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    h3{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
